@@ -31,6 +31,7 @@ class PostForm extends Component {
   }
 
   render() {
+    /* jshint ignore:start */
     return (
       <div>
         <h1>Add Post</h1>
@@ -60,6 +61,7 @@ class PostForm extends Component {
         </form>
       </div>
     );
+    /* jshint ignore:end */
   }
 }
 
